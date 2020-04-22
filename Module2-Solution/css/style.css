@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+	font-size: 19px;
+	font-family:Helvetica;
+}
+
+
+
+h1{
+
+	margin: 50px;
+	font-size:175%;
+	text-align: center;
+
+}
+
+.box1, .box2, .box3 {
+	background-color: #999999;
+	margin: 10px;
+	padding: 0;
+	width: 31%;
+	
+	border: 1px solid black;
+	float :left;
+	
+}
+
+p{
+	padding: 10px;
+	clear: right;
+}
+
+span {
+	position: relative;
+	border-left: 1px solid black;
+	border-bottom:1px solid black;  
+	padding: 5px 50px;
+	float:right;
+	font-size: 125%;
+	
+}
+
+
+.box1 span{
+background-color: #d59898;
+color: black;
+} 
+
+.box2 span{
+background-color: #c14543;
+color: white;
+}
+
+.box3 span{
+background-color: #e5d198;
+color: black;
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+.box1, .box2{
+	box-sizing: border-box; 
+	margin: 10px;
+	width: 47%
+
+}
+.box3{
+	
+	margin:10px;
+    width: 96.3%
+}	
+
+}
+
+@media (max-width: 767px) {
+
+.box1, .box2, .box3{
+   width: 80%;
+   margin-left: 50px;
+   margin-right: 50px;
+   
+}
+
+h1{
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+
+}
+
+
